@@ -1,0 +1,123 @@
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    @include tablet {
+        align-items: flex-end;
+    }
+    .carrito {
+        width: 4rem;
+        // margin-top: 3rem;
+        // margin-bottom: 1rem;
+        filter: invert(100%);
+        // margin-right: 2rem;
+        &:hover {
+            cursor: pointer;
+        }
+
+        @include tablet {
+            margin-top: 0;
+        }
+    }
+    .dark-mode-boton {
+
+        width: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        filter: invert(100%);
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        @include tablet {
+            margin-top: 0;
+        }
+    }
+}
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    @include tablet {
+        align-items: flex-end;
+    }
+
+        &:hover {
+            cursor: pointer;
+        }
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding-top: 3rem;
+    @include tablet {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+
+.navegacion {
+
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: visibility .3s ease-in-out, opacity .5s linear, height .5s linear;
+
+    @include tablet {
+        display: flex;
+        align-items: center;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    a {
+        color: $blanco;
+        text-decoration: none;
+        font-size: 2.2rem;
+        display: block;
+        text-align: center;
+        font-weight: $delgada;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        @include tablet {
+            margin-right: 2.6rem;
+            font-size: 1.8rem;
+            transform:scaleY(1.1);
+            // height: 2rem;
+            // font-weight: $delgada;
+
+            // &:last-of-type {
+            //     // margin-right: 0;
+            // }
+        }
+
+        &:hover{
+            color: $verde;
+        }
+    }
+}
+
+
+
+/** Menu de hamburguesa **/
+.mobile-menu {
+    @include tablet {
+        display: none;
+    }
+
+    img {
+        width: 5rem;
+    }
+}
+
+.mostrar {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+}

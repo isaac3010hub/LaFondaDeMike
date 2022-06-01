@@ -1,0 +1,139 @@
+.mikeDick {
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+    text-transform: uppercase;
+    margin-top: 10rem;
+    transform:scaleY(1.1);
+}
+.forma {
+    background-color: green;
+    margin-top: 3rem;
+    height: 40rem;
+    width: 70rem;
+}
+.mikeuwu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    p {
+        text-transform: uppercase;
+        color: $blanco;
+    }
+    margin: 5rem;
+    a {
+        color: $blanco;
+        text-decoration: none;
+        font-size: 1.5rem;
+        display: flex;
+        text-align: center;
+        font-weight: $delgada;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        text-align: left;
+}
+
+.mikeuwu2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    p {
+        text-transform: uppercase;
+        color: $blanco;
+    }
+    margin: 5rem;
+    column-count: 3;
+    column-gap: 80px;
+    a {
+        color: $blanco;
+        text-decoration: none;
+        font-size: 1.5rem;
+        display: flex;
+        text-align: center;
+        font-weight: $delgada;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        text-align: left;
+}
+.formulari {
+    .boton {
+        margin: auto;
+        width: 80%  ;
+        margin-top: 4rem;
+        background-color: $verdeO;
+    }
+    a{
+        color: $blanco;
+        
+    }
+    ::placeholder { color: $azulnigga;
+    font-weight: 700;}
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 8rem;
+    input,
+    textarea, 
+    select {
+        padding: 1.6rem;
+        background-color: $blanco;
+        border: 3px solid $azulnigga;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+        margin: 1rem;
+    }
+    textarea {
+        height: 15rem;
+    }
+    
+    
+    .mikecontacto {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    @include telefono3 {
+        .mikecontacto {
+            display: grid;
+            grid-template-columns: 1fr 1fr;  
+        }
+        .boton {
+            width: 30rem;
+        }
+    }
+
+}
+.formulario {
+    input:not([type="submit"]),
+    textarea, 
+    select {
+        padding: 1rem;
+        display: block;
+        width: 60rem;
+        background-color: $blanco;
+        border: 1px solid $gris;
+        border-radius: 1rem;
+        margin-bottom: 2rem
+    }
+
+    textarea {
+        height: 20rem;
+    }
+
+    .forma-contacto {
+        max-width: 30rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.contenedorITZA {
+    
+        width: 100%;
+    max-width: 110rem;
+    margin: 0 auto;
+    background-color: $verde;
+    border-radius: 4rem;
+    // background-color: $verdeO;
+}
+
+.mikeDickchiquita{
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+    text-transform: uppercase;
+    margin-top: 10rem;
+    transform:scaleY(1.1);   
+}

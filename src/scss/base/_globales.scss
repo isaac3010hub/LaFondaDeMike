@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap');
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: $fuente_principal;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+p {
+    color: $negro;
+    font-size: 2rem;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+    // background-color: $verdeO;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+picture {
+    width: 100%;
+    
+    // display: block;
+}
+
+h1, h2, h3 {
+    font-family: $fuente_principal;
+    margin: calc($separacion / 2) ;
+    font-weight: 300;
+    text-align: center;
+    color: $blanco;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+    text-align: left;
+    color: $blanco;
+    font-weight: $bold;
+}
+h4 {
+    font-size: 2.6rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    text-align: center;
+    color: $blanco;
+    
+}
+h5 {
+    font-size: 6rem;
+    text-align: center;
+    color: $blanco;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: $delgada;
+    transform:scaleY(1.1);
+    margin: 0%;
+    margin-top: 7rem;
+    
+}
+h6{
+    text-align: center;
+    font-size: 3rem;
+    color: $blanco;
+    font-family: 'Mr De Haviland', cursive;
+    margin: 1rem;
+    transform:scaleY(1.4);
+    font-weight: 100;
+}

@@ -1,0 +1,29 @@
+// .contenidowhenpapu{
+//     background-image: url(/src/img/carrtioMenu.PNG);
+//     background-repeat: no-repeat;
+//     background-size: cover;   
+    
+// }
+
+.contenedorbolita{
+    margin-top: 10rem;
+    display: flex;
+justify-content:space-around;
+    margin-right: 15rem;
+}
+
+.vectorXD{
+    // margin-right: 40rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.motosex{
+    width: 250%;
+    margin-left: -40rem;
+}
+.textompapu{
+    color:white;
+    margin: 10rem;
+    font-family: $fuente_principal;
+}

@@ -1,0 +1,50 @@
+.seccion {
+    // margin-top: calc($separacion / 2);
+    margin-bottom: calc($separacion / 2);
+}
+.contenido-centrado {
+    max-width: 80rem;
+}
+
+.alinear-derecha {
+    display: flex;
+    justify-content: flex-end;
+}
+.w-100 {
+    width: 100%;
+}
+.contenedorPapure {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@include tablet {
+    .contenedorPapure {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    }
+    .contenido {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.bolita {
+    background-color: green;
+    height: 4rem;
+    width: 4rem;
+    align-items: center;
+    border-radius: 3rem;
+    margin-left: 5rem;
+    text-align: center;
+    color: white;
+    font-weight: $bold;
+}
+.contenido {
+    display: flex;
+}
