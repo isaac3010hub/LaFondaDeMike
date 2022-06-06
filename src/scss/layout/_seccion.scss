@@ -1,0 +1,23 @@
+.iconos2-nosotros {
+    @include grid(1, 2rem);
+    margin-block-end: 1rem;
+}
+
+@include telefono2 {
+    h3{
+        // margin-left: 8rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: $delgada;
+        // padding: 3rem;
+        text-align: left
+    }
+    .iconos2-nosotros {
+        
+        @include grid(2, 2rem);
+        margin: auto;
+        // margin-bottom: 3rem;
+        margin-block-end: 5rem;
+    }
+}
+
+

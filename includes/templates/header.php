@@ -24,14 +24,57 @@
         <div class="contenedor contenido-header">
             <div class="barra">
                 <div class="mobile-menu">
-                    <img src="/build/img/barras.svg" alt="icono menu responsive">
+                    <img src="/src/img/barras.svg" alt="icono menu responsive">
                 </div>
                 <div class="izquierda">
                 <nav class="navegacion">
-                        <a href="carrito.php">
-                            <img class="carrito" src="/build//img/carrito.svg" alt="">
-                        </a>
-                        <a href="carrito.php">MI CARRITO</a>
+
+
+
+
+
+                <div class="two colums u-pull-right">
+
+                    <ul>
+
+                        <li class="submenu">
+                            <img class="linduritas" id="img-carrito" src="/build//img/carrito.svg" alt="">
+                            <div id="carrito">
+                                <p class="vacio">carrito vacio</p>
+                                <table id="lista-carrito" class="u-full-width">
+
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>nombre</th>
+                                            <th>Precio</th>
+                                            <th>cantidad</th>
+                                        </tr>
+                                    </thead>
+
+                                    <thbody>
+                                       
+                                    </thbody>
+
+                                </table>
+                                <a href="#" id="vaciar-carrito"
+                                class="button u-full-width">vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                        
                         <a href="acercaDe.php">ACERCA DE</a>
                         <a href="contacto.php">CONTACTO</a>
                         <a href="funciona.php">COMO FUNCIONA</a>
@@ -44,7 +87,7 @@
                 <div class="derecha">  
                     <nav class="navegacion">
                         <a href="login.php">INICIAR SESION</a>
-                        <a href="admin.php">ADMIN</a>
+                        <a href="adminsito2.php">ADMIN</a>
                         <?php if($auth): ?>
                             <a href="cerrar-sesion.php">CERRAR SESION</a>
                         <?php endif; ?>
@@ -52,7 +95,7 @@
                 </div>
             </div>
             <!--.barra-->
-            
+            <script src="/src/js/app.js"></script>
             <!-- <h1>La Fonda de Mike</h1> -->
         </div>
     </header>

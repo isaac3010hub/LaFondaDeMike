@@ -25,19 +25,28 @@ include '../includes/templates/header.php';
     </div>
 </form>
 </div>
-
-<div class="mikeuwu">
-  <p>Sociales</p>
-  <a href="">Instagram</a>
-  <a href="">Twitter</a>
-  <a href="">Facebook</a>
-  <p>MIKEGAMER@PAPURE.COM</p>
-  <p>UBICACIONES</p>
-</div>
-<div class="mikeuwu2 flex">
-  <p>BENITO JUAREZ, 56CTM</p>
-  <p>CALLE CTM, 53 C.P 7777 ITAPALAPAxd, MEXICO</p>
-  <p>Avenida CTM, 21 C.P 35000 colosio,</p>
+<div class="myke">
+  <div class="mikeuwu">
+    <div>
+      <p>Sociales</p>
+      <div class="mikesempai">
+      <a href="">Instagram</a>
+      <a href="">Twitter</a>
+      <a href="">Facebook</a>
+      </div>
+      <p>MIKEGAMER@PAPURE.COM</p>
+      <p>UBICACIONES</p>
+    </div>
+    <div class="sinuwu">
+      <img  src="../src/img/iconoIndex.png" alt="">
+    </div>
+  </div>
+  <div class="mikeuwu2 flex">
+    <p>BENITO JUAREZ, 56CTM</p>
+    <p>CALLE CTM, 53 C.P 7777 ITAPALAPAxd, MEXICO</p>
+    <p>Avenida CTM, 21 C.P 35000 colosio,</p>
+  </div>
+  
 </div>
 
 

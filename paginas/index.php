@@ -48,17 +48,36 @@ include '../includes/templates/header.php';
                         </div>
                     </div>
                     <div class="botonmike">
-                        <a href="#">VER MAS</a>
+                        <a href="menu.php">VER MAS</a>
                     </div>
                 <h4>Reseñas</h4>
-                <div class="index2">
+                <div class="index3">
+                <div>
+                    <h1>Que dicen nuestros clientes</h1>
                     <img src="../src/img/iconoIndex2.png" alt="">
                 </div>
+                <div>
+                    <p>Cocinas conforts nos trajo el verdadero confort a nuestra mesa. Estos kits de comida CTM son incribles</p>
+                    <p>@MIKECRACK</p>
+                    <p>No sabía que podía cocinar platos como estos.
+Es muy fácil, y mi familia lo agradece.</p>
+                    <p>@JUANCUCKNIZO</p>
+                    <p>Admiro a las empresas que evolucionan con los tiempos,
+¡y Cocinas Conforts lo hizo de forma deliciosa!</p>
+                    <p>@VEGETTA777</p>
+                </div>
+                </div>
+                
             </div>      
     </div>
+
+   
     
     <?php
         include '../includes/templates/footer.php';
     ?>    
 </body>
+
+<script src="/src/js/app.js"></script>
+
 </html>

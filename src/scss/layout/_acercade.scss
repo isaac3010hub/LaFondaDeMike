@@ -22,16 +22,22 @@
 
 
 .grid_columnas{
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 5rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     margin: 8rem;
     border-radius: 4rem;
-
+  
 }
 
 
+.cpov{
 
+    border-radius: 4rem;
+    margin-right: 4rem;
+    margin-left: -4rem;
+    max-width: 80%;
+   
+}
 
 
 
@@ -39,9 +45,7 @@
     font-family: $fuente_principal;
 color:#ffffff;
 text-align:left;
-
-
-
+margin-left: -10rem;
 
 }
 
@@ -53,6 +57,3 @@ text-align: center;
 margin-top: -5rem;
 
 }
-
-
-//Jax anda buscando 5 manes bien locos para ir a descalabrar mantarrayas y vigilantes al monte

@@ -3,10 +3,7 @@
         <div class="barra">
             <div class="izquierda">
                 <nav class="navegacion">
-                    <a href="carrito.php">
-                        <img class="carrito" src="/build//img/carrito.svg" alt="">
-                    </a>
-                    <a href="carrito.php">MI CARRITO</a>
+                  
                     <a href="acercaDe.php">ACERCA DE</a>
                     <a href="contacto.php">CONTACTO</a>
                     <a href="funciona.php">COMO FUNCIONA</a>
@@ -16,7 +13,7 @@
             </div>
             <div class="derecha">
                 <nav class="navegacion">
-                    <Legend>I am happy ya me supere</Legend>
+                    <Legend>La fonda de Mike</Legend>
                 </nav>
             </div>
         </div>        

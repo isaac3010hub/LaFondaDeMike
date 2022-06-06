@@ -55,11 +55,28 @@
     background-size: cover;
 }
 .index {
+
+    .formulari {
+        margin: 0 auto 5rem;
+    }
+    .mikepijo {
+        display: flex;
+        .mikeeo{
+          background-color: $rojo;
+        }
+        .boton {
+          width: 40%;
+          
+        }
+      }
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
     // display: flex;
     background-color: $verde;
     margin: 4rem;
     border-radius: 5rem;
-    padding: 4.5rem;
+    // padding: 4.5rem;
     
 
     h4 {
@@ -136,4 +153,58 @@
         display: flex;
         flex-direction: row;
     }   
+}
+.index3 {
+    display: grid;
+    grid-template-columns:1fr;
+
+    img {
+        width: 30rem;
+    }
+    p {
+        font-size: 1.5rem;
+        color: $blanco;
+        margin: 3rem;
+    }
+    h1{
+        font-size: 2.6rem;
+        font-weight: $bold;
+    }
+}
+@include tablet {
+    .index3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.mikendex4 {
+    display: grid;
+    grid-template-columns:1fr;
+    p {
+        font-size: 2rem;
+        color: $blanco;
+        margin: 5rem;
+    }
+    img {
+        width: 70%;
+        margin: auto;
+    }
+}
+@include tablet {
+    .mikendex4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+        margin: 3rem;
+
+       img{
+            width: 80%;
+       } 
+       p {
+        font-size: 2rem;
+        color: $blanco;
+        margin: 3rem;
+    }
+    }
 }

@@ -4,13 +4,18 @@
     margin-top: 10rem;
     transform:scaleY(1.1);
 }
-.forma {
-    background-color: green;
-    margin-top: 3rem;
-    height: 40rem;
-    width: 70rem;
+.forma {    
+    background-color: $verde;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    input {
+        width: 70%;
+      }
 }
 .mikeuwu {
+    display: flex;
+    flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     p {
         text-transform: uppercase;
@@ -26,9 +31,44 @@
         font-weight: $delgada;
         font-family: Verdana, Geneva, Tahoma, sans-serif;}
         text-align: left;
-}
+        // margin-left: 3rem;
+    .sinuwu {
+        img {
+            width: 40%;
+            // margin-left: 0;
+        }
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        // flex-direction: row;
+       
+    }
+    @include tablet {
+            
+        .sinuwu {
 
+            img {
+                width: 35%;
+                // height: 100%;
+            }
+        }
+    }
+
+
+}
+.myke {
+    margin-top: -20rem;
+}
+@include telefono3 {
+    .mikeuwu {
+        display: flex;
+        // grid-template-columns: 1fr;
+        flex-direction: row;
+    }
+}
 .mikeuwu2 {
+    display: flex;
+    flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     p {
@@ -48,6 +88,14 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;}
         text-align: left;
 }
+@include telefono3 {
+    .mikeuwu2 {
+        display: flex;
+        // grid-template-columns: 1fr;
+        flex-direction: row;
+    }
+}
+
 .formulari {
     .boton {
         margin: auto;
@@ -119,21 +167,4 @@
         justify-content: space-between;
         align-items: center;
     }
-}
-
-.contenedorITZA {
-    
-        width: 100%;
-    max-width: 110rem;
-    margin: 0 auto;
-    background-color: $verde;
-    border-radius: 4rem;
-    // background-color: $verdeO;
-}
-
-.mikeDickchiquita{
-    font-family: Verdana,Geneva,Tahoma,sans-serif;
-    text-transform: uppercase;
-    margin-top: 10rem;
-    transform:scaleY(1.1);   
 }

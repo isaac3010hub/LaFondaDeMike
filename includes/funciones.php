@@ -4,17 +4,25 @@ define('TEMPLATES_URL', __DIR__ .     '/templates');
 define('FUNCIONES_URL', __DIR__ . 'funciones.php');
 define('CARPETA_IMAGENES', __DIR__ . '/../imagenes/');
 
-function incluirTemplate( string $nombre, bool $inicio = false ) {
+function incluirTemplate( string $nombre, bool $inicio = false ) 
+{
     include TEMPLATES_URL . "/${nombre}.php";
 }
 
-function estaAutenticado(){
+function estaAutenticado(): bool {
     session_start();
 
-    if(!$_SESSION['login']){
-        header('Location: /');
+    $auth = $_SESSION['login'];
+    if($auth) {
+        return true;
     }
+    return false;
 }
+
+    //if(!$_SESSION['login']){
+    //    header('Location: /');
+    //}
+
 
 function debugear($variable){
     echo"<pre>";
@@ -53,7 +61,7 @@ function mostrarNotificacion($codigo) {
             $mensaje = 'Eliminado Correctamente';
             break;
         case 4:
-            $mensaje = 'Vendedor ya asignado';
+            $mensaje = 'Distribuidora ya asignado';
             break;
         default:
             $mensaje = false;
